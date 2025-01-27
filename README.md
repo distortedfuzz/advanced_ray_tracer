@@ -3,13 +3,13 @@
 
 This is a CPU ray tracer with many features. All following images were rendered by it. The features used are all specified. BVH was used to render all of these scenes.
 
-Reflections and conductors:
+## Reflections and conductors:
 ![other_dragon](https://github.com/user-attachments/assets/a13852e1-487a-40ea-902b-45d4f3366773)
 
-Dielectrics and instancing:
+## Dielectrics and instancing:
 ![metal_glass_plates](https://github.com/user-attachments/assets/1e5d3983-42eb-4896-91d6-5187c37c1d03)
 
-Instancing:
+## Instancing:
 ![marching_dragons](https://github.com/user-attachments/assets/58dc0ece-c99d-46ca-a011-ad5bdc6474ac)
 
 Transformations:
@@ -67,12 +67,37 @@ Environment lights, HDR tone mapping. All environment light images are .exr file
 ![audi-tt-pisa](https://github.com/user-attachments/assets/d9c81a0c-362b-49b4-a8a3-7a3792a827a1)
 ![audi-tt-glacier](https://github.com/user-attachments/assets/0364e477-d66d-4c64-afc8-eb98787842fb)
 
+Blinn Phong BRDF:
+![killeroo_blinnphong](https://github.com/user-attachments/assets/bf601391-b5a9-46b9-9735-33967822fac7)
+![killeroo_blinnphong_closeup](https://github.com/user-attachments/assets/018c71b1-4e0a-41fe-81e3-2d728579d3aa)
 
+Torrance Sparrow BRDF:
+![killeroo_torrancesparrow](https://github.com/user-attachments/assets/c87b49e5-5952-49f9-be5e-90a8c71ef98a)
+![killeroo_torrancesparrow_closeup](https://github.com/user-attachments/assets/ad1b9a50-3395-4fc0-8919-8c09910774f7)
 
+Mesh lights:
+![cornellbox_jaroslav_diffuse_area](https://github.com/user-attachments/assets/096cc183-0631-46ea-a965-0c84726c5934)
+![cornellbox_jaroslav_glossy_area_small](https://github.com/user-attachments/assets/5da527de-a7d6-4bd3-9f0c-d8c9dff5f044)
+![cornellbox_jaroslav_glossy_area](https://github.com/user-attachments/assets/5ae01619-bd3a-4345-aac8-b628e71c2b4f)
 
+Sphere lights:
+![cornellbox_jaroslav_glossy_area_ellipsoid](https://github.com/user-attachments/assets/34eb222f-dc45-43cd-85ec-f23de633eefd)
+![cornellbox_jaroslav_glossy_area_sphere](https://github.com/user-attachments/assets/ce5b6a32-dd9e-41dd-8e77-24f5ecdae91b)
 
+Path tracing with uniform sampling:
+![diffuse_uniform](https://github.com/user-attachments/assets/76d05ee8-87ac-4e81-88f7-0c948c506dd4)
 
+Path tracing with cosine importance sampling:
+![diffuse_cosine_importance](https://github.com/user-attachments/assets/408a97bb-3e87-4a19-bc60-7dd8e9170d1e)
 
+Next event estimation:
+![diffuse_importance_nee](https://github.com/user-attachments/assets/143cd070-e032-4c1e-8487-fa8742581545)
+![diffuse_importance_nee](https://github.com/user-attachments/assets/99a4a479-4d21-4201-91b4-04dabb8528b2)
+![diffuse_importance_nee](https://github.com/user-attachments/assets/7397f094-588e-495d-bff9-70c2c891ac70)
+![glass_importance_nee_weighted_revised](https://github.com/user-attachments/assets/fcaf8066-b078-4d53-8137-9e3f09a4e8d3)
+
+Russian roulette:
+![diffuse_russian](https://github.com/user-attachments/assets/d0419846-b24c-4604-bf32-ad8a0b303a50)
 
 
 
