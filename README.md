@@ -1,5 +1,5 @@
 # Advanced Ray Tracer
-This is a CPU ray tracer with many features. All following images with the specified features were all rendered by it. The ray tracer also uses the BVH acceleration structure. Check out the blog series of this project for further information about the features, the time it took to render these scenes and more: https://medium.com/@Ksatese
+This is a CPU ray tracer with many features. The following images with the specified features were all rendered by it. The ray tracer also uses the BVH acceleration structure. Check out the blog series of this project for further information about the features, the time it took to render these scenes, and more: https://medium.com/@Ksatese
 
 This project uses tinyxml, tinyexr, happly and stb_image.
 
