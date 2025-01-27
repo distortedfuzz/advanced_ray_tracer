@@ -1,5 +1,7 @@
 # Advanced Ray Tracer
-This is a CPU ray tracer with many features. All following images with the specified features were all rendered by it. The ray tracer also uses the BVH acceleration structure. Check out the blog series of this project for further information in all of these features: https://medium.com/@Ksatese
+This is a CPU ray tracer with many features. All following images with the specified features were all rendered by it. The ray tracer also uses the BVH acceleration structure. Check out the blog series of this project for further information about the features, the time it took to render these scenes and more: https://medium.com/@Ksatese
+
+This project uses tinyxml, tinyexr, happly and stb_image.
 
 ![trex_smooth](https://github.com/user-attachments/assets/30e80400-2340-4c82-b750-74a7b186ef2b)
 
@@ -79,7 +81,8 @@ This is a CPU ray tracer with many features. All following images with the speci
 
 ![cube_directional](https://github.com/user-attachments/assets/3f759a49-7a9f-47bf-836d-9c39fddb5a65)
 
-## Environment lights, HDR tone mapping. All environment light images are .exr files and all remaining images from this point on in the project use the Reinhard tone mapping operator:
+## Environment lights, HDR tone mapping:
+All environment light images are .exr files and all remaining images from this point on in the project use the Reinhard tone mapping operator.
 
 ![sphere_env_light](https://github.com/user-attachments/assets/c17a688a-2347-49e0-b393-9248cd7774c6)
 
